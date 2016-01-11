@@ -11,13 +11,14 @@ app.controller('MainController', ['$scope', function($scope){
     $scope.info = {
         message: "Go read ng-book!",
         myLink: "http://reddit.com",
+        showThing: true,
         makeCall: function(){
             console.log('do thing');
         }
     };
 
     // Even better way to write functions, you can include everything in the block above
-    // or do it thisi way
+    // or do it this way
     $scope.myFunction = function(){
 
     };
